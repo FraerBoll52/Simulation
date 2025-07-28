@@ -3,15 +3,17 @@ package Entitys;
 import java.util.Objects;
 
 public class Coordinates {
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
-    public int getX() {
-        return x;
+    public Coordinates(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 
     @Override
     public boolean equals(Object o) {
+        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Coordinates that = (Coordinates) o;
         return x == that.x && y == that.y;
@@ -28,6 +30,9 @@ public class Coordinates {
         return y;
     }
 
+    public int getX() {
+        return x;
+    }
 
 
     public boolean isAt(int x, int y) {
