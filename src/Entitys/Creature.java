@@ -5,7 +5,4 @@ public abstract class Creature extends Entity {
     private int movementPoints;
     private int speed;
 
-
-
-
 }

@@ -38,9 +38,8 @@ public class Coordinates {
     public boolean isAt(int x, int y) {
         return this.x == x && this.y == y;
     }
+
     //для отладки
-
-
     @Override
     public String toString() {
         return "Coordinates{" +
