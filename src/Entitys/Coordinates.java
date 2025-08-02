@@ -3,6 +3,7 @@ package Entitys;
 import java.util.Objects;
 
 public class Coordinates {
+    //new line
     private final int x;
     private final int y;
 
@@ -26,15 +27,6 @@ public class Coordinates {
 
 
 
-    public int getY() {
-        return y;
-    }
-
-    public int getX() {
-        return x;
-    }
-
-
     public boolean isAt(int x, int y) {
         return this.x == x && this.y == y;
     }
@@ -46,5 +38,12 @@ public class Coordinates {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+    public int getY() {
+        return y;
+    }
+
+    public int getX() {
+        return x;
     }
 }
