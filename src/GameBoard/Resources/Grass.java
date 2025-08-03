@@ -1,4 +1,6 @@
 package GameBoard.Resources;
 
-public class Grass {
+import Entitys.Entity;
+
+public class Grass extends Entity {
 }
