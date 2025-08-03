@@ -3,7 +3,7 @@ package Entitys;
 import java.util.Objects;
 
 public class Coordinates {
-    //new line
+
     private final int x;
     private final int y;
 
