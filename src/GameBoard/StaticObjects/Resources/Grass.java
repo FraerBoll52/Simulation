@@ -1,4 +1,4 @@
-package GameBoard.Resources;
+package GameBoard.StaticObjects.Resources;
 
 import Entitys.Entity;
 
